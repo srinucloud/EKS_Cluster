@@ -114,7 +114,7 @@ resource "aws_eks_node_group" "devopsshack" {
 
   scaling_config {
     desired_size = 3
-    max_size     = 3
+    max_size     = 4
     min_size     = 3
   }
 

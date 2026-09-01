@@ -5,3 +5,7 @@ variable "ssh_key_name" {
 
   default = "aws-keypair"
 }
+
+
+
+# aws ec2 describe-key-pairs --region us-east-2 --query 'KeyPairs[].KeyName' --output table
